@@ -5,8 +5,8 @@ on:
     paths:
       - .github/workflows/lobsters.yml
   workflow_dispatch:
-  schedule:
-    - cron: '*/60 * * * *'
+  #schedule:
+  #  - cron: '*/60 * * * *'
     
 jobs:
   scheduled:
